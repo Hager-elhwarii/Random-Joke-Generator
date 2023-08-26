@@ -9,7 +9,7 @@ const btn = document.getElementById('btn');
 const url = 'https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single'
 
 
-// Put my promies on a function expression so I can use the addEventLisnter.
+// Put my promies on a function expression so I can pass to the addEventLisnter as an argument.
 const getJoke = () => {
       fetch(url)
       .then(request => request.json()) // it will return a promise.
@@ -18,5 +18,5 @@ const getJoke = () => {
       })
 }
 
-// Add a event Lisnter, so when I click on the button, it will call getJoke function immediately.
+// Add a event Lisnter, so when I click on the button, it will call getJoke() function immediately, and excute it.
 btn.addEventListener('click',getJoke);
