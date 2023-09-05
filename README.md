@@ -4,7 +4,7 @@ Simple JavaScript API Project, that Generates Random jokes.
 <a name="readme-top"></a>
 
 ## 📷  Demo Screenshoot
-![image](https://github.com/Hager-elhwarii/Random-Joke-Generator/assets/80959882/f3ecca15-b8af-40f2-bf18-58bde5# 
+![image](https://github.com/Hager-elhwarii/Random-Joke-Generator/assets/80959882/f3ecca15-b8af-40f2-bf18-58bde5) 
 
 ## 🚀 Deployment
   - [Demo Link](https://random-joke-generator-dottie.netlify.app/)
